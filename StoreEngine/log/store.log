@@ -638,3 +638,9 @@
 2018-07-15 19:36:08 DEBUG | INTO signal_thread_run
 2018-07-15 19:36:08 DEBUG | sunxiwang
 2018-07-15 19:36:08 DEBUG | pcap_open_live: eth0: You don't have permission to capture on that device (socket: Operation not permitted)
+2018-07-30 06:11:25 DEBUG | sunxiwang
+2018-07-30 06:11:25 DEBUG | INTO signal_thread_run
+2018-07-30 06:11:25 DEBUG | pcap_open_live: eth0: You don't have permission to capture on that device (socket: Operation not permitted)
+2018-07-30 06:12:05 DEBUG | sunxiwang
+2018-07-30 06:12:05 DEBUG | INTO signal_thread_run
+2018-07-30 06:12:05 DEBUG | pcap_open_live: eth0: You don't have permission to capture on that device (socket: Operation not permitted)

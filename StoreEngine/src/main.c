@@ -15,13 +15,13 @@
 #include <fcntl.h>
 #include <malloc.h>
 
-#include "./common.h"
-#include "./parse_configure_file.h"
-#include "./write_disk.h"
-#include "./get_and_deal_data.h"
-#include "./signal_deal.h"
-#include "./log.h"
-#include "./ctrl.h"
+#include "../inc/common.h"
+#include "../inc/parse_configure_file.h"
+#include "../inc/write_disk.h"
+#include "../inc/get_and_deal_data.h"
+#include "../inc/signal_deal.h"
+#include "../inc/log.h"
+#include "../inc/ctrl.h"
 
 
 /* 程序配置文件路径*/
