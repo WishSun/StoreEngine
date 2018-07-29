@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CONF_PATH	main.c	20;"	d	file:
+MAX_PATH	main.c	18;"	d	file:
+TYPE_DOUBLE	parse_configure_file.h	/^    TYPE_DOUBLE,$/;"	e	enum:__value_type_t
+TYPE_INT	parse_configure_file.h	/^    TYPE_INT = 0,$/;"	e	enum:__value_type_t
+TYPE_LONG	parse_configure_file.h	/^    TYPE_LONG,$/;"	e	enum:__value_type_t
+TYPE_STRING	parse_configure_file.h	/^    TYPE_STRING$/;"	e	enum:__value_type_t
+_PARSE_CONFIGURE_FILE_H	parse_configure_file.h	10;"	d
+__value_type_t	parse_configure_file.h	/^enum __value_type_t$/;"	g
+close_conf	parse_configure_file.c	/^void close_conf()$/;"	f
+conf_path	main.c	/^char    conf_path[ MAX_PATH ] = {0};$/;"	v
+daemon_flag	main.c	/^int     daemon_flag = 0;           $/;"	v
+daemon_instance	main.c	/^static int daemon_instance()$/;"	f	file:
+get_opt	main.c	/^static int get_opt(int argc, char *argv[])$/;"	f	file:
+get_path	main.c	/^static int get_path()$/;"	f	file:
+get_val_array	parse_configure_file.c	/^int get_val_array( char *path, void **val, int count, int value_type )$/;"	f
+get_val_single	parse_configure_file.c	/^int get_val_single( char *path, void *val, int value_type )$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+open_conf	parse_configure_file.c	/^int open_conf( char *filename )$/;"	f
+p_conf	parse_configure_file.c	/^config_t  *p_conf = NULL;$/;"	v
